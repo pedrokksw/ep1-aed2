@@ -163,13 +163,13 @@ ERRO: ARESTA PARALELA (1,2)
 
 O programa detecta e reporta os seguintes erros no arquivo de saída:
 
-| Erro                            | Descrição                                     |
-| ------------------------------- | --------------------------------------------- | --- | --- |
-| `ERRO: VERTICE INVALIDO (v)`    | Vértice negativo ou maior que `               | V   | -1` |
-| `ERRO: AUTO-LACO (v,v)`         | Aresta conectando um vértice a si mesmo       |
-| `ERRO: PESO INVALIDO (p)`       | Peso negativo ou nulo                         |
-| `ERRO: ARESTA PARALELA (v1,v2)` | Duas ou mais arestas entre os mesmos vértices |
-| `ERRO: GRAFO NAO CONECTADO`     | Grafo desconexo — AGM não existe              |
+| Erro                            | Descrição                                       |
+| ------------------------------- | ----------------------------------------------- |
+| `ERRO: VERTICE INVALIDO (v)`    | Vértice negativo ou maior que `numVertices - 1` |
+| `ERRO: AUTO-LACO (v,v)`         | Aresta conectando um vértice a si mesmo         |
+| `ERRO: PESO INVALIDO (p)`       | Peso negativo ou nulo                           |
+| `ERRO: ARESTA PARALELA (v1,v2)` | Duas ou mais arestas entre os mesmos vértices   |
+| `ERRO: GRAFO NAO CONECTADO`     | Grafo desconexo — AGM não existe                |
 
 Múltiplos erros na mesma aresta são reportados. Os erros são impressos na ordem em que as arestas aparecem no arquivo de entrada.
 
