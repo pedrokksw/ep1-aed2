@@ -67,7 +67,7 @@ Sem o heap, seria necessário varrer todos os vértices a cada iteração, resul
 
 ```
 .
-├── ep1_XXXX.c        # Arquivo principal (main, leGrafo, AGM_Prim, geraArquivoSaida)
+├── ep1-aed2.c        # Arquivo principal (main, leGrafo, AGM_Prim, geraArquivoSaida)
 ├── grafo_listaadj.c  # Implementação por lista de adjacência
 ├── grafo_matrizadj.c # Implementação por matriz de adjacência
 ├── heap.c            # Min-heap para a fila de prioridades
@@ -82,7 +82,7 @@ Sem o heap, seria necessário varrer todos os vértices a cada iteração, resul
 | `grafo_matrizadj.c` | Estrutura estática com matriz de adjacência         |
 | `heap.c`            | Min-heap                                            |
 | `bfs.c`             | Busca em Largura para verificar se o grafo é conexo |
-| `ep1_XXXX.c`        | Leitura do arquivo, validações, Prim e saída        |
+| `ep1-aed2.c`        | Leitura do arquivo, validações, Prim e saída        |
 
 ---
 
